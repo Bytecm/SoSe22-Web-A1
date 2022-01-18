@@ -1,0 +1,18 @@
+body {
+  background-color: moccasin;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#Header1 {
+  background-color: burlywood;
+}
+
+#Elefantenspitzmaus {
+  background-color: burlywood;
+}
