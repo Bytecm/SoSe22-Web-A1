@@ -73,32 +73,33 @@
 		<h3>Welche Maus bin ich?</h3>
 <!--This is a comment-->
 
-	<!--	<form> -->
-			<table>
-				<tr>
-					<td><label for="fname">Vorname: </label></td>
-					<td><input type="text" id="fname" name="fname"></td>
-				</tr>
-				<tr>
-					<td><label for="lname">Nachname: </label></td>
-					<td><input type="text" id="lname" name="lname"></td>
-				</tr>
-				<tr>
-					<td><label for="birthday">Geburtstag: </label></td>
-					<td><input type="date" id="birthday" name="birthday"></td>
-				</tr>
-				<tr>
-					<td><label for="city">Wohnort: </label></td>
-					<td><input type="text" id="city" name="city"></td>
-				</tr>
-				<tr>
-					<td><label for="color">Lieblingsfarbe: </label></td>
-					<td><input type="color" id="color" name="color"></td>
-				</tr>
-			</table>
-			<br>
-			<button onclick="calculate()"> Ergebnis </button>
-	<!--	</form>-->
+    <form>
+      <table>
+        <tr>
+          <td><label for="fname">Vorname: </label></td>
+          <td><input type="text" id="fname" name="fname"></td>
+        </tr>
+        <tr>
+          <td><label for="lname">Nachname: </label></td>
+          <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+          <td><label for="birthday">Geburtstag: </label></td>
+          <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+        <tr>
+          <td><label for="city">Wohnort: </label></td>
+          <td><input type="text" id="city" name="city"></td>
+        </tr>
+        <tr>
+          <td><label for="color">Lieblingsfarbe: </label></td>
+          <td><input type="color" id="color" name="color"></td>
+        </tr>
+      </table>
+    </form>
+
+    <br>
+    <button id="submitTest" onclick="mouseTest()"> Ergebnis </button>
 
     <div id="result">
     </div>
