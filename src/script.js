@@ -6,7 +6,7 @@ function mouseTest() {
   document.getElementById("color").value = "";
 
   var i = Math.random();
-  var resultDiv = document.getElementById('result');
+  var resultDiv = document.getElementById("result");
 
   resultDiv.innerHTML = "";
 
