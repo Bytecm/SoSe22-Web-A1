@@ -3,7 +3,7 @@ body {
     background: blanchedalmond;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
     background-color: burlywood;
     padding: 2%;
@@ -53,8 +53,48 @@ h1 {
     width: inherit;
 }
 
+.date-input {
+    font-size: 2vh;
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: inherit;
+}
+
+.color-input {
+    font-size: 2vh;
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: 10%;
+}
+
 #line {
     background: black;
     height: 0.2vh;
     margin: 2%
+}
+
+#submitTest {
+    font-size: 2vh;
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: inherit;
+}
+
+#submitTest:hover {
+    font-size: 2vh;
+    background: #ffcc80;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: inherit;
 }
