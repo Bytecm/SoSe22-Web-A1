@@ -1,119 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-		<link rel="stylesheet" href="src/styles.css"/>
-		<script src="src/script.js"></script>
+<head>
+    <link rel="stylesheet" href="src/style.css"/>
+    <script src="src/script.js"></script>
     <meta charset="UTF-8"/>
     <title>Außerordentliche Mäuse</title>
-  </head>
-
-  <body>
-    <div id="Header1">
-      <h1><i>Die Welt der außerordentlichen Mäuse</i></h1>
-      <h2>Willkommen auf der Hauptseite!</h2>
+</head>
+<body>
+<div class="grid-container">
+    <h1>Die Welt der außerordentlichen Mäuse</h1>
+    <div class="flex-container">
+        <div class="box">
+            Button 1
+        </div>
+        <div class="box">
+            Button 2
+        </div>
+        <div class="box">
+            Button 3
+        </div>
+        <div class="box">
+            <p class="boxhead">Computermaus</p>
+            Vorkommen: meistens auf Schreibtischen <br>
+            Größe: meistens 10-13 cm <br>
+            <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Razer_Naga_2014_MMO_Gaming_Mouse_%2814714867599%29.jpg"
+                    alt="Bild einer Computer Maus"
+                    height="250"
+                    width="auto"
+            /><br>
+            <a href="src/computer_maus.html">Mehr Infos</a>
+        </div>
     </div>
-
-    <!-- <hr size="2" color="black"> -->
-
-    <p align="center">
-      Auf dieser Seite finden Sie die außergewöhnlichsten Mausarten unserer Erde!<br>
-      Am Ende können Sie sogar herausfinden, welche Mausart auf Sie zutrifft. <br>
-    </p>
-
-    <p align="left">
-        Hier zunächst ein Überblick über einige Mausarten:
-    </p>
-
-    <table border="5" width="100" bgcolor="white" align="center">
-      <tr>
-        <th> Mausart </th>
-        <th> Vorkommen </th>
-        <th> Größe </th>
-        <th> Bild </th>
-        <th> Weitere Details </th>
-      </tr>
-      <tr>
-        <th> Elefantenspitzmaus </th>
-        <th> Ost- und Südafrika </th>
-        <th> ca. 20 cm </th>
-        <th> <img
-          src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Bushveld-elephant-shrew.jpg"
-          alt="wikipedia.com"
-          height="200"
-          width="auto"
-        /> </th>
-        <th> <a href="src/elefantenspitzmaus.html">Elefantenspitzmaus</a> </th>
-      </tr> 
-      <tr>
-          <th> Sumpfspitzmaus </th>
-          <th> Europa </th>
-          <th> ca. 7 cm </th>
-          <th> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neomys_anomalus.jpg/600px-Neomys_anomalus.jpg" alt="Bild einer Sumpfspitzmaus" width="300"> </th>
-          <th> <a href="src/sumpfspitzmaus.html">Sumpfspitzmaus</a> </th>
-        </tr> 
-        <tr>
-            <th> Ostschermaus </th>
-            <th> Großen Teilen der Paläarktis </th>
-            <th> ca. 13–24 cm </th>
-            <th> <img
-                    src="https://kleinsaeuger.at/files/content/foto/wuehlmaeuse/Arvicola_amphibius%281%29_GrahamC57_flickr.jpg"
-                    width="300"/>
-            </th>
-            <th> <a href="src/ostschermaus.html">Ostschermaus</a> </th>
-          </tr> 
-          <th> Computermaus </th>
-            <th> meistens auf Schreibtischen </th>
-            <th> meistens 10-13 cm </th>
-            <th>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Razer_Naga_2014_MMO_Gaming_Mouse_%2814714867599%29.jpg"
-                alt="Bild einer Computer Maus"
-                height="250"
-                width="auto"
-              />
-            </th>
-            <th> <a href="src/computer_maus.html">Computermaus</a> </th>
-          </tr> 
-
-   
-    </table>
-
-    
-
-
-		<h3>Welche Maus bin ich?</h3>
-<!--This is a comment-->
-
-    <form>
-      <table>
-        <tr>
-          <td><label for="fname">Vorname: </label></td>
-          <td><input type="text" id="fname" name="fname"></td>
-        </tr>
-        <tr>
-          <td><label for="lname">Nachname: </label></td>
-          <td><input type="text" id="lname" name="lname"></td>
-        </tr>
-        <tr>
-          <td><label for="birthday">Geburtstag: </label></td>
-          <td><input type="date" id="birthday" name="birthday"></td>
-        </tr>
-        <tr>
-          <td><label for="city">Wohnort: </label></td>
-          <td><input type="text" id="city" name="city"></td>
-        </tr>
-        <tr>
-          <td><label for="color">Lieblingsfarbe: </label></td>
-          <td><input type="color" id="color" name="color"></td>
-        </tr>
-      </table>
-    </form>
-
-    <br>
-    <button id="submitTest" onclick="mouseTest()"> Ergebnis </button>
-
-    <div id="result">
+    <div id="line">
     </div>
-
-  </body>
+    <div class="flex-container">
+        <input type="text" class="text-input" placeholder="Type something">
+        <input type="text" class="text-input" placeholder="Type something">
+        <input type="text" class="text-input" placeholder="Type something">
+        <input type="text" class="text-input" placeholder="Type something">
+        <input type="text" class="text-input" placeholder="Type something">
+        <input type="text" class="text-input" placeholder="Type something">
+    </div>
+</div>
+</body>
 </html>

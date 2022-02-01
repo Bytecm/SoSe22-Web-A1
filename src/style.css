@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    padding: 2%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    height: inherit;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.box {
+    font-size: 3vh;
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: inherit;
+}
+
+.boxhead{
+    text-align: center;
+    margin: 2px;
+    font-size: 4vh;
+    text-decoration: underline;
+}
+
+.text-input {
+    font-size: 2vh;
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 2%;
+    height: inherit;
+    width: inherit;
+}
+
+#line {
+    background: black;
+    height: 0.2vh;
+    margin: 2%
+}
