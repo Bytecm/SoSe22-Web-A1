@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  sose22-web-a1:
+    ports:
+      - '8080:8080'
+    container_name: SoSe22-Web-A1
+    image: bytecm/sose22-web-a1
