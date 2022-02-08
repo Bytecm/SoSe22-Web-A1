@@ -1,107 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-		<link rel="stylesheet" href="src/styles.css"/>
-		<script src="src/script.js"></script>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="src/style.css"/>
+    <script src="src/script.js"></script>
     <meta charset="UTF-8"/>
     <title>Außerordentliche Mäuse</title>
-  </head>
-
-  <body>
-    <div id="Header1">
-      <h1><i>Die Welt der außerordentlichen Mäuse</i></h1>
-      <h2>Willkommen auf der Hauptseite!</h2>
+</head>
+<body>
+<div class="grid-container">
+    <h1>Die Welt der außerordentlichen Mäuse</h1>
+    <div class="flex-container">
+        <div class="box">
+            <p class="boxhead">Elefantenspitzmaus</p>
+            Vorkommen: Ost- und Südafrika <br>
+            Größe: ca. 20 cm <br>
+            <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Bushveld-elephant-shrew.jpg"
+                    alt="Bild einer Elefantenspitzmaus"
+                    height="200"
+                    width="auto"
+            /><br>
+            <a href="src/elefantenspitzmaus.html">Mehr Infos</a>
+        </div>
+        <div class="box">
+            <p class="boxhead">Sumpfspitzmaus</p>
+            Vorkommen: Europa <br>
+            Größe: ca. 7 cm <br>
+            <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neomys_anomalus.jpg/600px-Neomys_anomalus.jpg"
+                    alt="Bild einer Sumpfspitzmaus"
+                    height="300"
+                    width="auto"
+            /><br>
+            <a href="src/sumpfspitzmaus.html">Mehr Infos</a>
+        </div>
+        <div class="box">
+            <p class="boxhead">Ostschermaus</p>
+            Vorkommen: Großen Teilen der Paläarktis <br>
+            Größe: ca. 13–24 cm <br>
+            <img
+                    src="https://kleinsaeuger.at/files/content/foto/wuehlmaeuse/Arvicola_amphibius%281%29_GrahamC57_flickr.jpg"
+                    alt="Bild einer Ostschermaus"
+                    height="300"
+                    width="auto"
+            /><br>
+            <a href="src/ostschermaus.html">Mehr Infos</a>
+        </div>
+        <div class="box">
+            <p class="boxhead">Computermaus</p>
+            Vorkommen: meistens auf Schreibtischen <br>
+            Größe: meistens 10-13 cm <br>
+            <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Razer_Naga_2014_MMO_Gaming_Mouse_%2814714867599%29.jpg"
+                    alt="Bild einer Computer Maus"
+                    height="250"
+                    width="auto"
+            /><br>
+            <a href="src/computer_maus.html">Mehr Infos</a>
+        </div>
     </div>
-
-    <!-- <hr size="2" color="black"> -->
-
-    <p align="center">
-      Auf dieser Seite finden Sie die außergewöhnlichsten Mausarten unserer Erde!<br>
-      Am Ende können Sie sogar herausfinden, welche Mausart auf Sie zutrifft. <br>
-    </p>
-
-    <p align="left">
-        Hier zunächst ein Überblick über alle Mausarten:
-    </p>
-
-    <table border="5" width="100" bgcolor="white" align="center">
-      <tr>
-        <th> Mausart </th>
-        <th> Vorkommen </th>
-        <th> Größe </th>
-        <th> Bild </th>
-        <th> Weitere Details </th>
-      </tr>
-      <tr>
-        <th> Elefantenspitzmaus </th>
-        <th> Irgendwo </th>
-        <th> 3m </th>
-        <th> <img
-          src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Bushveld-elephant-shrew.jpg"
-          alt="wikipedia.com"
-          width="250"
-        /> </th>
-        <th> <a href="src/elefantenspitzmaus.html">Elefantenspitzmaus</a> </th>
-      </tr> 
-      <tr>
-          <th> Sumpfspitzmaus </th>
-          <th> Irgendwo </th>
-          <th> 3m </th>
-          <th> Bild </th>
-          <th> <a href="../sumpfspitzmaus.html">Sumpfspitzmaus</a> </th>
-        </tr> 
-        <tr>
-            <th> Maus3 </th>
-            <th> Irgendwo </th>
-            <th> 3m </th>
-            <th> Bild </th>
-            <th> <a href="../sumpfspitzmaus.html">Sumpfspitzmaus</a> </th>
-          </tr> 
-          <th> Maus4 </th>
-            <th> Irgendwo </th>
-            <th> 3m </th>
-            <th> Bild </th>
-            <th> <a href="../sumpfspitzmaus.html">Sumpfspitzmaus</a> </th>
-          </tr> 
-
-   
-    </table>
-
-    
-
-
-		<h3>Welche Maus bin ich?</h3>
-<!--This is a comment-->
-
-	<!--	<form> -->
-			<table>
-				<tr>
-					<td><label for="fname">Vorname: </label></td>
-					<td><input type="text" id="fname" name="fname"></td>
-				</tr>
-				<tr>
-					<td><label for="lname">Nachname: </label></td>
-					<td><input type="text" id="lname" name="lname"></td>
-				</tr>
-				<tr>
-					<td><label for="birthday">Geburtstag: </label></td>
-					<td><input type="date" id="birthday" name="birthday"></td>
-				</tr>
-				<tr>
-					<td><label for="city">Wohnort: </label></td>
-					<td><input type="text" id="city" name="city"></td>
-				</tr>
-				<tr>
-					<td><label for="color">Lieblingsfarbe: </label></td>
-					<td><input type="color" id="color" name="color"></td>
-				</tr>
-			</table>
-			<br>
-			<button onclick="calculate()"> Ergebnis </button>
-	<!--	</form>-->
-
-    <div id="result">
+    <div id="line">
     </div>
-
-  </body>
+    <h2>Welche Maus bin ich?</h2>
+    <div class="flex-container">
+        <input type="text" class="text-input" id="fname" placeholder="Vorname">
+        <input type="text" class="text-input" id="lname" placeholder="Nachname">
+        <input type="date" class="date-input" id="birthday" placeholder="Geburtstag">
+        <input type="text" class="text-input" id="city" placeholder="Wohnort">
+        <input type="color" class="color-input" id="color" placeholder="Lieblingsfarbe">
+        <button id="submitTest" onclick="mouseTest()"> Ergebnis </button>
+    </div>
+    <div class="box" id="resultbox">
+    </div>
+</div>
+</body>
 </html>
