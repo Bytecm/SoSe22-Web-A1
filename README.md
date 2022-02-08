@@ -9,6 +9,9 @@ To install the dependencies of the App run:
 To Start the Server run:
 > npm start
  
+now the Server should be reachable under:
+> http://localhost:8080
+
 ## Running the Node JS Site in Docker
 This Repository has a ready Dockerfile, so that you can build the Container yourself.
 ### Building the Container
