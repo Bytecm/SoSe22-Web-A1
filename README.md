@@ -15,6 +15,9 @@ This Repository has a ready Dockerfile, so that you can build the Container your
 First clone the Repository
 > git clone https://github.com/Bytecm/SoSe22-Web-A1.git
 
+Go into the Repository
+> cd SoSe22-Web-A1
+
 Then Build the Docker Container (use "sudo" if you are on Linux)
 > docker build -t bytecm/sose22-web-a1 .
 
