@@ -5,7 +5,7 @@ WORKDIR /usr/src/SoSe22-Web-A1
 
 #get the Git repository in one Layer
 RUN cd /usr/src/ &&\
-    git clone -b Docker https://github.com/Bytecm/SoSe22-Web-A1.git &&\
+    git clone https://github.com/Bytecm/SoSe22-Web-A1.git &&\
     cd /usr/src/SoSe22-Web-A1
 
 # Install app dependencies
